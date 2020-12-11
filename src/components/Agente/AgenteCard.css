@@ -1,0 +1,35 @@
+.info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 5vh 10vh;
+    width: auto;
+    background-color: #fff;
+    border: 0px solid gray;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.25);
+    font-size: 1.4rem;
+}
+
+hr {
+    margin: 1rem;
+}
+
+.agentImg {
+    padding: 5vh 5vh;
+    height: auto;
+    width: 50vh;
+    border-radius: 4px;
+}
+
+.operatorInfo {
+    margin-right: 12rem;
+}
+
+.companyInfo {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}

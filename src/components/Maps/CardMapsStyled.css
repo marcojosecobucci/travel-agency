@@ -1,0 +1,36 @@
+.mapCard {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5vh 10vh;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.25);
+    font-size: 1.4rem;
+}
+
+.map {
+    margin: 3vh;
+    height: 50vh;
+    width: 150vh;
+
+}
+
+.TitoloMaps {
+    text-transform: uppercase;
+    color:orange;
+    font-weight: 500;
+}
+
+div.mapCard p {
+    color: grey;
+    
+}
+
+strong {
+    color: grey;
+    font-size: 1.2rem;
+}

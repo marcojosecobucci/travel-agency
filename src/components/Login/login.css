@@ -1,0 +1,39 @@
+
+.loginContainer {
+    margin: 20vh auto;
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5vh 5vh;
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(55, 115, 158, 0.89);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(55, 115, 158, 0.89);
+    box-shadow: 10px 11px 5px 0px rgba(55, 115, 158, 0.89);
+    text-align: center;    
+}
+.btnLogin {
+    margin-top: 3rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 10rem;
+    height: 5rem;
+    background-color: #0d4ac8;
+    color: #fff;
+}
+
+.btnLogin:hover {
+    width: 11rem;
+    height: 6rem;  
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(55, 115, 158, 0.89);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(55, 115, 158, 0.89);
+    box-shadow: 10px 11px 5px 0px rgba(55, 115, 158, 0.89);
+}
+
+label {
+    display: block;
+    margin: 1rem;
+}
+
+input {
+    width: 90%;
+}
+

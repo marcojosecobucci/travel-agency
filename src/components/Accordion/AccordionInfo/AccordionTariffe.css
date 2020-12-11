@@ -1,0 +1,51 @@
+.priceResume {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-flow: column nowrap ;
+  text-transform: uppercase;
+}
+
+.priceforeach {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-flow: row nowrap;
+  margin: 0 5vh;
+}
+.price {
+  color: #666;
+  font-weight: bold;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  flex-flow: column wrap;
+  margin: 0 5vh;
+  font-weight: bold;
+  text-align: right;
+}
+
+.total p {
+  color: black;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.total span {
+  color: #FFB400;
+  font-size: 2.1rem;
+}
+
+.priceDetail h2 {
+  color: #FFB400;
+  font-size: 2.4rem;
+}
+
+.inforesume p {
+  text-align: left;
+  font-size: 1.3rem;
+  margin: 0;
+}

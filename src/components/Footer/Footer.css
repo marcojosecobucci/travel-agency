@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #3382D4;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.footer>div{
+    margin: 10vh 15vh;
+}
+
+button {
+    color: #3382D4;
+    font-size: 14px;
+    font-weight: 16px;
+    padding: 1.3rem;
+    border-radius: 3%;
+    border-style: none;
+    outline: none;
+}
+
+button:hover{
+    background-color: #9ec9f8;
+  }
+  
+
+button:active{
+    box-shadow: 3px 3px rgba(55, 115, 158, 0.89);
+    transform: translateY(2px);
+}

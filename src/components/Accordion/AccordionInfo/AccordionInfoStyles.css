@@ -1,0 +1,66 @@
+.clearfix {
+  clear: both;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 5vh 10vh;
+  width: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.25);
+  font-size: 1.4rem;
+  background-color: #fff;
+
+}
+.title-box {
+  cursor: pointer;
+  padding: 15px;
+  background-color: #f5f5f5;
+}
+.title {
+  width: calc(100% - 20px);
+  font-size: 20px;
+  font-weight: 700!important;
+}
+.icon {
+  width: 20px;
+  display: flex;
+  color: #666;
+  float: right;
+}
+.icon .fa {
+  font-size: 20px;
+  transition: all 0.1s;
+  transform: rotate(90deg);
+}
+.icon .fa-angle.down {
+  transform: rotate(0deg);
+}
+
+.content {
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  text-align: left;
+}
+
+.content>p {
+  margin-right: 22rem;
+}
+
+.accortionList .title {
+  color: #0063C9;
+  text-transform: uppercase;
+  
+}
+
+.icona:active{
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
